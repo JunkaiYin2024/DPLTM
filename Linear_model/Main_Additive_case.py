@@ -78,4 +78,4 @@ if __name__ == "__main__":
                 print("q: 25, ICI_mean: {:.4f}, ICI_std: {:.4f}" .format(ICI_25[~np.isnan(ICI_25)].mean(), ICI_25[~np.isnan(ICI_25)].std()))
                 print("q: 50, ICI_mean: {:.4f}, ICI_std: {:.4f}" .format(ICI_50[~np.isnan(ICI_50)].mean(), ICI_50[~np.isnan(ICI_50)].std()))
                 print("q: 75, ICI_mean: {:.4f}, ICI_std: {:.4f}" .format(ICI_75[~np.isnan(ICI_75)].mean(), ICI_75[~np.isnan(ICI_75)].std()))
-                print("c_index_mean: {:.4f}, c_index_std: {:.4f}\n" .format(c_index.mean(), c_index.std()))
+                print("c_index_mean: {:.4f}, c_index_std: {:.4f}\n" .format(c_index.mean(), c_index.std())) 
